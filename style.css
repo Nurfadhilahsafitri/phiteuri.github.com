@@ -1,0 +1,136 @@
+body{
+	background: linear-gradient(to right, #849974, #E7CC8F);
+	margin: 0px;
+	padding: 0px;
+	font-family: "Arial Narow", sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: #4b4c28;
+	cursor: pointer;
+	transition: 0.2s;
+	font-size: 40px;
+}
+
+h1:hover{
+	text-align: center;
+	color: #899F4A;
+	Letter-spacing: 2px;
+}
+
+P{
+	color: #1A2902;
+	font-family: semibold;
+	font-size: 25px;
+	cursor: pointer;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+br{
+	color: #1A2902;
+	font-family: semibold;
+	font-size: 20px;
+	cursor: pointer;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+img{
+	background: linear-gradient(to right, #C3D888, #483838);
+	margin-top: 35px;
+    width: 297px;
+    height: 295px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 99em;
+    box-shadow: 0px 0px 10px 5px;
+	padding: 5px;
+}
+
+img: hover{
+	opacity: 100%;
+	box-shadow: 1px 1px 6px 46302B;
+}
+
+.tombol-sederhana{
+	padding: 15px 20px;
+
+}
+
+.tombol-sederhana,.tombol-css,.tombol-jquery{
+	margin-left: 20px;
+}
+
+.tombol-sederhana a{
+	text-decoration: none;
+	color: #F5E9DF;
+	padding: 5px 18px;
+	border: 2px solid #EEE3CB;
+	border-radius: 20px;
+	background:#A2B38B; 
+	box-shadow: 0px 0px 3px 3px;
+	font-weight: bold;
+	transition: 20px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tombol-sederhana a:hover{
+	background-color: #EEE3CB;
+	color: #483838;
+}
+
+.tombol-css{
+	padding: 15px 20px;
+}
+
+.tombol-css a{
+	text-decoration: none;
+	color: #F5E9DF;
+	padding: 5px 18px;
+	border: 2px solid #EEE3CB;
+	border-radius: 20px;
+	background:#A2B38B; 
+	box-shadow: 0px 0px 3px 3px;
+	font-weight: bold;
+	transition: 20px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tombol-css a:hover{
+	background-color: #EEE3CB;
+	color: #483838;
+}
+
+.tombol-jquery{
+	padding: 15px 20px;
+}
+
+.tombol-jquery a{
+	text-decoration: none;
+	color: #F5E9DF;
+	padding: 5px 18px;
+	border: 2px solid #EEE3CB;
+	border-radius: 20px;
+	background:#A2B38B; 
+	box-shadow: 0px 0px 3px 3px;
+	font-weight: bold;
+	transition: 20px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tombol-jquery a:hover{
+	background-color: #EEE3CB;
+	color: #483838;
+}
+
+
+
