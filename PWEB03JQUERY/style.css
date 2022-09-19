@@ -1,0 +1,104 @@
+body{
+	background: linear-gradient(to right, #849974, #E7CC8F);
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.table{
+	font-family: sans-serif;
+	margin-left: auto ;
+	margin-top: 30px ;
+	margin-right: auto;
+	width: 650px;
+	height: 100px;
+	border-collapse: collapse;
+	border: 1px solid #7D9D9C
+	align-content: center;
+	cursor: pointer;
+}
+
+h1{
+	color: #483838;
+}
+
+.table th{
+	background: #483838;
+	color: #EEE3CB;
+}
+
+.table th:hover{
+	background: #EEE3CB;
+	color: #483838;
+}
+
+.apus:hover{
+	background: #E7CC8F;
+}
+
+.table tr{
+	background: #c9cba3;
+	color: #483838;
+	text-align: center;
+	font-weight: normal 
+}
+
+.table, th, td{
+	padding: 8px 20px;
+	text-align: center;
+	height: 25px;
+}
+
+.table td{
+	cursor: pointer;
+	transition: .2s;
+}
+
+.table td:hover{
+	background: #483838;
+	color: #c9cba3;
+}
+
+.ubah{
+	background: linear-gradient(to right, #849974, #E7CC8F);
+}
+
+.apus{
+	background: linear-gradient(to right, #E7CC8F, #849974);
+}
+
+.table tr:hover{
+	background: #483838;
+}
+
+.table tr:nth-child(odd){
+	background-color: #EEE3CB;
+}
+.table tr:nth-child(even){
+	background-color: #c9cba3;
+}
+
+.Tombol-kembali-jquery{
+	margin-top: 40px;
+}
+
+.Tombol-kembali-jquery a{
+	text-decoration: none;
+	font-family: Comic Sans;
+	color: #F5E9DF;
+	padding: 10px 5px;
+	border-radius: 10px;
+	background: #483838;
+	margin: 10px 5px;
+	widht: 16px;
+	height: 40px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.Tombol-kembali-jquery a:hover{
+	background-color: #EEE3CB;
+	color: #483838;
+}
