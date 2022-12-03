@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	padding: 30px 20px;
+	background: #AAC4FF;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+@font-face{
+	font-family: UncialAntiqua-Regular;
+	src: url('UncialAntiqua-Regular.ttf');
+}
+@font-face{
+	font-family: Typo GeoSlab Regular Demo;
+	src: url('Typo GeoSlab Regular Demo.otf');
+}
+.main-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-head a{
+	font-family: UncialAntiqua-Regular;
+	font-size: 20px;
+}
+.links{
+	margin-left: 30px;
+	margin-right: 20px;	
+}
+.links a{
+	font-weight: bold;
+	font-size: 17px;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+	font-family: Typo GeoSlab Regular Demo;
+}
+.nav li{
+	padding: 5px 10px;
+	border: none;
+	display: inline-block;
+	padding: 5px;
+	transition: all linear 0.5s;
+	margin-right: 20px;
+	text-align: right;
+}
+.nav li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+.background-image{
+	width: 100%;
+  	background-image: url(img.jpg);
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	height: 109vh;
+}
+.isi__1,
+.isi__2,
+.isi__3,
+.isi__4 {
+	padding-top: 8rem;
+}
+.isi__1,
+.isi__2,
+.isi__3,
+.isi__4 a{
+  background-color: #D2DAFF;
+  border: solid 1px #D2DAFF;
+  display: none;
+  color: black;
+  font-family: calibri;
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px gray;
+}
